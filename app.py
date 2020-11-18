@@ -1,5 +1,6 @@
 import pandas as pd
 from flask import Flask, jsonify, request
+from sklearn.linear_model import LogisticRegression
 import pickle
 import xgboost as xgb
 
